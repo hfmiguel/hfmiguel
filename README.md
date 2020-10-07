@@ -3,9 +3,10 @@
 
 <p align="left">
 <h3 align="left">Connect with me:</h3>
-<a href="https://www.linkedin.com/in/hfelixmiguell/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="https://www.linkedin.com/in/hfelixmiguell/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/henrique-felix" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="henrique-felix" height="30" width="40" /></a>
-<a href="https://instagram.com/@henriiquefelix" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="@henriiquefelix" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/hfelixmiguell/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="https://www.linkedin.com/in/hfelixmiguell/" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/henrique-felix" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="henrique-felix" height="30" width="40" /></a>
+<a href="https://fb.com/henriquefelix.m" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="henriquefelix.m" height="30" width="40" /></a>
+<a href="https://instagram.com/felix_henriique" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="@henriiquefelix" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
