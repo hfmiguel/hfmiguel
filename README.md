@@ -197,25 +197,33 @@ My Github Stats</b>:
 
 <br>
 
-<a href="https://github.com/hfmiguel">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&line_height=40" />
-</a>
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&langs_count=5" />
-
-<div style="display:flex">
-
-<div style="width:50%;pull:left">
-<a  href="https://github.com/hfmiguel">
-  <img  style="margin-top:20px" src="https://github-readme-streak-stats.herokuapp.com?user=hfmiguel&theme=vue-dark&date_format=j%20M%5B%20Y%5D&stroke=3BDD3E&border=DDDDDD&line_height=17"  />
-</a>
-</div>
-<div style="width:50%;pull:right;margin-top:-30px" align="right">
-<img src="https://c.tenor.com/_oIQs0zyJj0AAAAi/caffeine-rush-coffee.gif" width="250">
-</div>
-
-</div>
 
 
+<table style="display:flex" border='0'>
+  <tr>
+    <td>
+      <a href="https://github.com/hfmiguel">
+        <img align="right" src="https://github-readme-stats.vercel.app/api?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&line_height=40" />
+      </a>
+    </td>
+    <td>
+      <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&langs_count=5" />
+    </td>
+  </tr>
+</table>
+
+<table style="display:flex" border='0'>
+<tr>
+  <td>
+    <a  href="https://github.com/hfmiguel">
+      <img  style="margin-top:20px" src="https://github-readme-streak-stats.herokuapp.com?user=hfmiguel&theme=vue-dark&date_format=j%20M%5B%20Y%5D&stroke=3BDD3E&border=DDDDDD&line_height=17"  />
+    </a>
+  </td>
+  <td>
+    <img src="https://c.tenor.com/_oIQs0zyJj0AAAAi/caffeine-rush-coffee.gif" width="250">
+  </td>
+</tr>
+</table>
 
  <br>
  <br>
@@ -226,12 +234,11 @@ My Github Stats</b>:
       <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=hfelix&layout=compact" />
     </a>
  </div> 
-
 <!--END_SECTION:waka-->
 
- <br/>
- <br/>
- <br/>
+<br/>
+<br/>
+<br/>
 
-Credit: [Awesome Github Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
-Last Edited on: 23/10/2021
+##### Credit: [Awesome Github Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
+##### Last Edited on: 23/10/2021
