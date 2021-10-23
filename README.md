@@ -1,24 +1,237 @@
-<h1 align="center">Hi 👋, I'm Henrique Felix</h1>
-<h3 align="center">I am a full stack developer and ui design</h3>
-<h4 align="center">Passionate about programming and entrepreneurship, a good draft beer and a guitar " I like to start with this phrase when I introduce myself, because it defines me in a few words: I like to program, I like to do business and relax. Working in the web programming area since 2013, I consider myself an enthusiast when it comes to programming</h4>
 
-- 👨‍💻 All of my projects are available at [https://fxdev.pt](https://fxdev.pt)
+<span align="left">
+<h1>
+Hey there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> , I'm Henrique Felix
+</h1>
+</span>
 
-- 📫 How to reach me **hfelixmiguell@gmail.com**
+<h4 align="left">
+Full stack developer and ui design
+</h4>
 
-<p align="left">
-<h3 align="left">Connect with me:</h3>
-<a href="https://linkedin.com/in/hfelixmiguell/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="hfelixmiguell/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/henrique-felix" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="henrique-felix" height="30" width="40" /></a>
-<a href="https://fb.com/henriquefelix.m" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="henriquefelix.m" height="30" width="40" /></a>
-<a href="https://instagram.com/felix_henriique" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="felix_henriique" height="30" width="40" /></a>
+
+
+<p>
+  <img src="https://views.whatilearened.today/views/github/hfmiguel/views.svg"/>
+  <a href="https://github.com/hfmiguel/"><img src="https://img.shields.io/github/followers/hfmiguel?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a>
+  <a href="https://github.com/hfmiguel?tab=repositories">
+  <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/>
+  </a>
+  <br/>
+  <a href="https://www.linkedin.com/in/hfelixmiguell/">
+  <img src="https://img.shields.io/badge/-hfelixmiguell-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hfelixmiguell"/>
+  </a>
+  <a href="https://www.instagram.com/felix_henriique/">
+  <img src="https://img.shields.io/badge/-felix_henriique-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/felix_henriique/"/>
+  </a>
+  <a href="https://www.facebook.com/henriqueFelix.m">
+  <img src="https://img.shields.io/badge/-henriqueFelix.m-blue?style=flat-square&logo=Facebook&logoColor=white&link=https://www.facebook.com/henriqueFelix.m"/>
+  </a>
+  <a href="https://telegram.org/@Hfelixm">
+  <img src="https://img.shields.io/badge/-henriquefelix-darkblue?style=flat-square&logo=Telegram&logoColor=white&link=https://telegram.org/@Hfelixm"/>
+  </a>
+  <a href="http://fxdev.pt">
+  <img src="https://img.shields.io/badge/-henriquefelix-darkorange?style=flat-square&logo=Opera&logoColor=white&link=http://fxdev.pt"/>
+  </a>
+  
+  <a href="mailto:hfelixmiguellgmail.com">
+  <img src="https://img.shields.io/badge/-hfelixmiguell-darkred?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hfelixmiguellgmail.com"/>
+  </a>
+
+</p>
+<!--END_SECTION:waka-->
+
+
+<br/>
+
+<p>
+Passionate about programming and entrepreneurship, a good draft beer and a guitar " I like to start with this phrase when I introduce myself, because it defines me in a few words: I like to program, I like to do business and relax. Working in the web programming area since 2013, I consider myself an enthusiast when it comes to programming.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<br>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hfmiguel" alt="hfmiguel" /> </p>
+<div>
+<ul>
+<li>I love nature 🎣🌲, sport 💪, guitar 🎸 and reading 📚.</li>
+<br>
+<li>I enjoy learning new stuff and making notes 📄.</li>
+<br>
+<li>I like to travel and I like to have new opportunities 🛫.</li>
+<br>
+<li>I'm an Open Source enthusiast 🤠.</li>
+</ul>
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hfmiguel&layout=compact" alt="hfmiguel" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hfmiguel&show_icons=true" alt="hfmiguel" /></p>
+<br>
+
+## 🚀 My Skills
+> _Tools, languages, and other things that I like to work with_
+
+
+**Programming Languages**
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/js.svg" width="40"/>
+      </a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/php.svg" width="40"/>
+      </a>
+      <br>PHP
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://img.icons8.com/color/48/000000/typescript.png" width="40"/>
+      </a>
+      <br>Typescript
+    </td>
+  </tr>
+</table>
+
+**Frameworks & Libraries**
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/react.svg" width="40"/>
+      </a>
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/nodejs.svg" width="40"/>
+      </a>
+      <br>NodeJS
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://img.icons8.com/fluency/48/000000/laravel.png" width="40"/>
+      </a>
+      <br>Laravel
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/bootstrap.svg" width="40"/>
+      </a>
+      <br>Bootstrap
+    </td>
+  </tr>
+</table>
+
+**Markup & Stylesheet**
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/html.svg" width="40"/>
+      </a>
+      <br>HTML
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/css.svg" width="40"/>
+      </a>
+      <br>CSS
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/sass.svg" width="40"/>
+      </a>
+      <br>SASS
+    </td>
+  </tr>
+</table>
+
+**Graphic Tools**
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/photoshop.svg" width="40"/>
+      </a>
+      <br>Photoshop
+    </td>
+    <td align="center" width="96">
+      <a>
+        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/figma.svg" width="30"/>
+      </a>
+      <br>Figma
+    </td>
+  </tr>
+</table>
+
+**Other Tools**
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a>
+        <img src="https://img.icons8.com/color/48/000000/git.png" width="40"/>
+      </a>
+      <br>Git
+    </td>
+     <td align="center" width="96">
+      <a>
+        <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"/>
+      </a>
+      <br>Docker
+    </td>
+  </tr>
+</table>
+
+ <br>
+ <br>
+
+<summary> 😇 <b>
+My Github Stats</b>: 
+</summary>
+
+<br>
+
+<a href="https://github.com/hfmiguel">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&line_height=40" />
+</a>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&langs_count=5" />
+
+<div style="display:flex">
+
+<div style="width:50%;pull:left">
+<a  href="https://github.com/hfmiguel">
+  <img  style="margin-top:20px" src="https://github-readme-streak-stats.herokuapp.com?user=hfmiguel&theme=vue-dark&date_format=j%20M%5B%20Y%5D&stroke=3BDD3E&border=DDDDDD&line_height=17"  />
+</a>
+</div>
+<div style="width:50%;pull:right;margin-top:-30px" align="right">
+<img src="https://c.tenor.com/_oIQs0zyJj0AAAAi/caffeine-rush-coffee.gif" width="250">
+</div>
+
+</div>
+
+
+
+ <br>
+ <br>
+
+<!--START_SECTION:waka-->
+ <div align="left">
+    <a href="https://github.com/hfmiguel">
+      <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=hfelix&layout=compact" />
+    </a>
+ </div> 
+
+<!--END_SECTION:waka-->
+
+ <br/>
+ <br/>
+ <br/>
+
+Credit: [Awesome Github Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
+Last Edited on: 23/10/2021
