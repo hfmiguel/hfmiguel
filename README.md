@@ -62,131 +62,20 @@ Passionate about programming and entrepreneurship, a good draft beer and a guita
 </ul>
 </div>
 
-
-<br>
+---
 
 ## 🚀 My Skills
 > _Tools, languages, and other things that I like to work with_
 
+| Category | Tools & Languages |
+| :--- | :--- |
+| **Languages** | `JavaScript` `TypeScript` `PHP` `SQL` |
+| **Frameworks** | `React` `Node.js` `Laravel` `Express` |
+| **Styling** | `CSS3` `SASS` `Bootstrap` `Tailwind` |
+| **Design** | `Figma` `Photoshop` |
+| **DevOps** | `Docker` `Git` `Linux` |
 
-**Programming Languages**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/js.svg" width="40"/>
-      </a>
-      <br>JavaScript
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/php.svg" width="40"/>
-      </a>
-      <br>PHP
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://img.icons8.com/color/48/000000/typescript.png" width="40"/>
-      </a>
-      <br>Typescript
-    </td>
-  </tr>
-</table>
-
-**Frameworks & Libraries**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/react.svg" width="40"/>
-      </a>
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/nodejs.svg" width="40"/>
-      </a>
-      <br>NodeJS
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://img.icons8.com/fluency/48/000000/laravel.png" width="40"/>
-      </a>
-      <br>Laravel
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/bootstrap.svg" width="40"/>
-      </a>
-      <br>Bootstrap
-    </td>
-  </tr>
-</table>
-
-**Markup & Stylesheet**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/html.svg" width="40"/>
-      </a>
-      <br>HTML
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/css.svg" width="40"/>
-      </a>
-      <br>CSS
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/sass.svg" width="40"/>
-      </a>
-      <br>SASS
-    </td>
-  </tr>
-</table>
-
-**Graphic Tools**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/photoshop.svg" width="40"/>
-      </a>
-      <br>Photoshop
-    </td>
-    <td align="center" width="96">
-      <a>
-        <img src="https://raw.githubusercontent.com/pkkulhari/pkkulhari/master/icons/figma.svg" width="30"/>
-      </a>
-      <br>Figma
-    </td>
-  </tr>
-</table>
-
-**Other Tools**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a>
-        <img src="https://img.icons8.com/color/48/000000/git.png" width="40"/>
-      </a>
-      <br>Git
-    </td>
-     <td align="center" width="96">
-      <a>
-        <img src="https://img.icons8.com/color/48/000000/docker.png" width="40"/>
-      </a>
-      <br>Docker
-    </td>
-  </tr>
-</table>
+---
 
  <br>
  <br>
@@ -240,5 +129,4 @@ My Github Stats</b>:
 <br/>
 <br/>
 
-##### Credit: [Awesome Github Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
-##### Last Edited on: 23/10/2021
+##### Last Edited on: 2026
