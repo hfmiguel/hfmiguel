@@ -45,10 +45,8 @@ Full stack developer and ui design
 <br/>
 
 <p>
-Passionate about programming and entrepreneurship, a good draft beer and a guitar " I like to start with this phrase when I introduce myself, because it defines me in a few words: I like to program, I like to do business and relax. Working in the web programming area since 2013, I consider myself an enthusiast when it comes to programming.
+Full-stack developer by trade, entrepreneur by heart, and guitar player by soul. Since 2013, I’ve been turning complex problems into clean, functional code. When I'm not in front of a terminal, you’ll probably find me with a cold beer in hand or planning my next venture. Simple as that.
 </p>
-
-<br>
 
 <div>
 <ul>
