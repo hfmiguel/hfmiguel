@@ -1,34 +1,55 @@
 # Stage 1: Install dependencies
-FROM node:20-alpine
+FROM node:20-alpine AS installer
 
-WORKDIR /var/www/
+WORKDIR /app
 
 # Copy package files
-COPY app /var/www/app
-COPY lib /var/www/lib
-COPY package.json /var/www/package.json
-COPY package-lock.json /var/www/package-lock.json
-COPY public /var/www/public
-COPY tsconfig.json /var/www/tsconfig.json
-COPY next.config.mjs /var/www/next.config.mjs
-COPY next-env.d.ts /var/www/next-env.d.ts
-COPY README.md /var/www/README.md
+COPY package.json package-lock.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install --prefer offline --no-audit
 
-RUN npm cache clean --force && npm run build
+# Stage 2: Build application
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Copy dependency lock file and install production deps only
+COPY --from=installer /app/node_modules ./node_modules
+COPY package.json package-lock.json ./
+
+# Copy application source files
+COPY . .
+
+# Install build dependencies and build
+RUN npm run build
+
+# Stage 3: Production runtime
+FROM node:20-alpine AS runner
+
+WORKDIR /app
 
 # Create app user
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 nextjs
 
-ENV NODE_ENV=production
+# Copy built application
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/package.json ./
 
-RUN chown -R nextjs:nodejs /var/www/
+# Install production dependencies only
+RUN npm install --omit dev --no-audit
+
+# Expose port 3000
+EXPOSE 3000
+
+# Set environment variables
+ENV PORT=3000
+ENV NODE_ENV=production
 
 # Switch to non-root user
 USER nextjs
 
 # Start the application
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
