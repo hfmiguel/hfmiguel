@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+.next
+out
+
+# Build outputs
+*.tgz
+*.zip
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp
+temp
+
+# Docker
+.dockerignore
