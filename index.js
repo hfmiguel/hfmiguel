@@ -11,6 +11,25 @@ const DOCS_DIR = path.join(__dirname);
 const MD_FILE = path.join(DOCS_DIR, 'README.md');
 
 function escapeHtml(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') }
+function escapeHtmlSafe(s) { 
+  // Não escapa tags HTML existentes, apenas texto dentro das tags
+  let result = '';
+  let inTag = false;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === '<') {
+      inTag = true;
+      result += s[i];
+    } else if (s[i] === '>') {
+      inTag = false;
+      result += s[i];
+    } else if (!inTag) {
+      result += s[i].replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    } else {
+      result += s[i];
+    }
+  }
+  return result;
+}
 function renderInline(text) {
   text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t, u) => `<a href="${u}">${escapeHtml(t)}</a>`);
   text = text.replace(/\*\*([^*]+)\*\*/g, (m, t) => `<strong>${escapeHtml(t)}</strong>`);
@@ -34,7 +53,7 @@ function parse(md) {
     while (i < lines.length && !lines[i].trim().match(/^\s*$/) && !lines[i].trim().match(/^(#{1,6}|[-+*]\s+|---)/)) {
       para.push(lines[i]); i++
     }
-    if (para.length) { let text = para.join(' ').trim(); out += `<p>${renderInline(escapeHtml(text))}</p>\n`; continue }
+    if (para.length) { let text = para.join(' ').trim(); out += `<p>${renderInline(escapeHtmlSafe(text))}</p>\n`; continue }
   }
   if (inList) out += '</ul>';
   return out;
@@ -60,7 +79,7 @@ function buildPage(contentHtml) {
 <body>
   <main class="wrap">
     <div class="markdown-body">${contentHtml}</div>
-    <p style="margin-top:18px"><a href="/download">Download PDF</a></p>
+    <p style="margin-top:18px"><a href="/resume">📄 Resume HTML</a></p>
   </main>
 </body>
 </html>`;
@@ -80,6 +99,17 @@ const server = http.createServer((req, res) => {
   }
   if (url === '/cv.md') {
     fs.createReadStream(MD_FILE).on('error', () => { res.statusCode = 404; res.end('Not found') }).pipe(res);
+    return;
+  }
+
+  // Serve resume.html na rota /resume
+  if (url === '/resume' || url === '/resume.html') {
+    const resumeFile = path.join(DOCS_DIR, 'resume.html');
+    fs.readFile(resumeFile, 'utf8', (err, html) => {
+      if (err) { res.statusCode = 404; res.end('Resume not found'); return; }
+      res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      res.end(html);
+    });
     return;
   }
 
