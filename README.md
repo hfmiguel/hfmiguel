@@ -1,130 +1,119 @@
+<header>
+  <h1>Hey there 👋, I'm Henrique Felix</h1>
+  <p class="subtitle">Full stack developer and UI designer</p>
+</header>
 
-<span align="left">
-<h1>
-Hey there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> , I'm Henrique Felix
-</h1>
-</span>
+<section class="bio">
+  <p>
+    Full-stack developer by trade, entrepreneur by heart, and guitar player by soul.
+    Since 2013, I've been turning complex problems into clean, functional code.
+    When I'm not in front of a terminal, you'll probably find me with a cold beer in hand
+    or planning my next venture. Simple as that.
+  </p>
 
-<h4 align="left">
-Full stack developer and ui design
-</h4>
+  <ul class="interests">
+    <li>I love nature 🎣🌲, sport 💪, guitar 🎸 and reading 📚.</li>
+    <li>I enjoy learning new stuff and making notes 📄.</li>
+    <li>I like to travel and I like to have new opportunities 🛫.</li>
+    <li>I'm an Open Source enthusiast 🤠.</li>
+  </ul>
+</section>
 
+<hr class="divider">
 
+<section class="skills">
+  <h2>🚀 My Skills</h2>
+  <p class="subtitle">Tools, languages, and other things that I like to work with</p>
 
-<p>
-  <img src="https://views.whatilearened.today/views/github/hfmiguel/views.svg"/>
-  <a href="https://github.com/hfmiguel/"><img src="https://img.shields.io/github/followers/hfmiguel?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a>
-  <a href="https://github.com/hfmiguel?tab=repositories">
-  <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/>
-  </a>
-  <br/>
-  <a href="https://www.linkedin.com/in/hfelixmiguell/">
-  <img src="https://img.shields.io/badge/-hfelixmiguell-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hfelixmiguell"/>
-  </a>
-  <a href="https://www.instagram.com/felix_henriique/">
-  <img src="https://img.shields.io/badge/-felix_henriique-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/felix_henriique/"/>
-  </a>
-  <a href="https://www.facebook.com/henriqueFelix.m">
-  <img src="https://img.shields.io/badge/-henriqueFelix.m-blue?style=flat-square&logo=Facebook&logoColor=white&link=https://www.facebook.com/henriqueFelix.m"/>
-  </a>
-  <a href="https://telegram.org/@Hfelixm">
-  <img src="https://img.shields.io/badge/-henriquefelix-darkblue?style=flat-square&logo=Telegram&logoColor=white&link=https://telegram.org/@Hfelixm"/>
-  </a>
-  <a href="http://fxdev.pt">
-  <img src="https://img.shields.io/badge/-henriquefelix-darkorange?style=flat-square&logo=Opera&logoColor=white&link=http://fxdev.pt"/>
-  </a>
-  
-  <a href="mailto:hfelixmiguellgmail.com">
-  <img src="https://img.shields.io/badge/-hfelixmiguell-darkred?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hfelixmiguellgmail.com"/>
-  </a>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>Languages</strong></td>
+        <td><code>JavaScript</code> <code>TypeScript</code> <code>PHP</code> <code>SQL</code></td>
+      </tr>
+      <tr>
+        <td><strong>Frameworks</strong></td>
+        <td><code>React</code> <code>Node.js</code> <code>Laravel</code> <code>Express</code></td>
+      </tr>
+      <tr>
+        <td><strong>Styling</strong></td>
+        <td><code>CSS3</code> <code>SASS</code> <code>Bootstrap</code> <code>Tailwind</code></td>
+      </tr>
+      <tr>
+        <td><strong>Design</strong></td>
+        <td><code>Figma</code> <code>Photoshop</code></td>
+      </tr>
+      <tr>
+        <td><strong>DevOps</strong></td>
+        <td><code>Docker</code> <code>Git</code> <code>Linux</code></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
-</p>
-<!--END_SECTION:waka-->
+<hr class="divider">
 
+<section class="experience">
+  <h2>💼 Experience</h2>
 
-<br/>
+  <article class="job">
+    <h3>Full Stack Developer</h3>
+    <p class="company">Freelance / Self-employed</p>
+    <p class="period"><strong>2013 - Present</strong></p>
+    <ul>
+      <li>Developing web applications using React, Next.js, and Laravel</li>
+      <li>Building responsive UI/UX designs with modern CSS frameworks</li>
+      <li>Creating RESTful APIs and integrating third-party services</li>
+      <li>Managing databases with MySQL and PostgreSQL</li>
+    </ul>
+  </article>
+</section>
 
-<p>
-Full-stack developer by trade, entrepreneur by heart, and guitar player by soul. Since 2013, I’ve been turning complex problems into clean, functional code. When I'm not in front of a terminal, you’ll probably find me with a cold beer in hand or planning my next venture. Simple as that.
-</p>
+<hr class="divider">
 
-<div>
-<ul>
-<li>I love nature 🎣🌲, sport 💪, guitar 🎸 and reading 📚.</li>
-<br>
-<li>I enjoy learning new stuff and making notes 📄.</li>
-<br>
-<li>I like to travel and I like to have new opportunities 🛫.</li>
-<br>
-<li>I'm an Open Source enthusiast 🤠.</li>
-</ul>
-</div>
+<section class="projects">
+  <h2>🎯 Recent Projects</h2>
 
----
+  <article class="project">
+    <h3>Portfolio Website</h3>
+    <p>A modern portfolio website built with Next.js 16, featuring MDX content rendering and responsive design.</p>
+    <ul>
+      <li><strong>Technologies:</strong> Next.js 16, TypeScript, Tailwind CSS</li>
+      <li><strong>Features:</strong> Dynamic routing, SEO optimization, PDF resume integration</li>
+    </ul>
+  </article>
 
-## 🚀 My Skills
-> _Tools, languages, and other things that I like to work with_
+  <article class="project">
+    <h3>E-commerce Platform</h3>
+    <p>A full-stack e-commerce solution with Laravel backend and React frontend.</p>
+    <ul>
+      <li><strong>Technologies:</strong> Laravel 11, React, MySQL, Docker</li>
+      <li><strong>Features:</strong> Payment integration, inventory management, admin dashboard</li>
+    </ul>
+  </article>
 
-| Category | Tools & Languages |
-| :--- | :--- |
-| **Languages** | `JavaScript` `TypeScript` `PHP` `SQL` |
-| **Frameworks** | `React` `Node.js` `Laravel` `Express` |
-| **Styling** | `CSS3` `SASS` `Bootstrap` `Tailwind` |
-| **Design** | `Figma` `Photoshop` |
-| **DevOps** | `Docker` `Git` `Linux` |
+  <article class="project">
+    <h3>API Gateway</h3>
+    <p>A Node.js API gateway for microservices architecture.</p>
+    <ul>
+      <li><strong>Technologies:</strong> Node.js, Express, Redis, Docker</li>
+      <li><strong>Features:</strong> Rate limiting, authentication, caching, logging</li>
+    </ul>
+  </article>
+</section>
 
----
+<hr class="divider">
 
- <br>
- <br>
+<section class="contact">
+  <h2>📬 Contact Me</h2>
 
-<summary> 😇 <b>
-My Github Stats</b>: 
-</summary>
+  <div class="social-links">
+    <a href="https://github.com/hfmiguel" class="btn btn-github">GitHub</a>
+    <a href="https://www.linkedin.com/in/hfelixmiguell/" class="btn btn-linkedin">LinkedIn</a>
+    <a href="mailto:hfelixmiguell@gmail.com" class="btn btn-email">Email</a>
+  </div>
+</section>
 
-<br>
-
-
-
-<table style="display:flex" border='0'>
-  <tr>
-    <td>
-      <a href="https://github.com/hfmiguel">
-        <img align="right" src="https://github-readme-stats.vercel.app/api?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&line_height=40" />
-      </a>
-    </td>
-    <td>
-      <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hfmiguel&theme=vue-dark&show_icons=true&show_icons=true&count_private=true&include_all_commits=true&langs_count=5" />
-    </td>
-  </tr>
-</table>
-
-<table style="display:flex" border='0'>
-<tr>
-  <td>
-    <a  href="https://github.com/hfmiguel">
-      <img  style="margin-top:20px" src="https://github-readme-streak-stats.herokuapp.com?user=hfmiguel&theme=vue-dark&date_format=j%20M%5B%20Y%5D&stroke=3BDD3E&border=DDDDDD&line_height=17"  />
-    </a>
-  </td>
-  <td>
-    <img src="https://c.tenor.com/_oIQs0zyJj0AAAAi/caffeine-rush-coffee.gif" width="250">
-  </td>
-</tr>
-</table>
-
- <br>
- <br>
-
-<!--START_SECTION:waka-->
- <div align="left">
-    <a href="https://github.com/hfmiguel">
-      <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=hfelix&layout=compact" />
-    </a>
- </div> 
-<!--END_SECTION:waka-->
-
-<br/>
-<br/>
-<br/>
-
-##### Last Edited on: 2026
+<footer>
+  <p>Last updated: 2026</p>
+</footer>
