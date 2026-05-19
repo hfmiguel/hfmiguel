@@ -13,8 +13,10 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   // Configuração para produção
   output: 'standalone',
-  experimental: {
-    outputStandingMode: true,
+  // Forçar o Next.js a ouvir em todas as interfaces
+  server: {
+    host: '0.0.0.0',
+    port: 3000,
   },
 };
 
