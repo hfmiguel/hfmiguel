@@ -23,9 +23,6 @@ RUN npm cache clean --force && npm run build
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 nextjs
 
-# Expose port 3000
-EXPOSE 3101
-ENV PORT=3000
 ENV NODE_ENV=production
 
 RUN chown -R nextjs:nodejs /var/www/
