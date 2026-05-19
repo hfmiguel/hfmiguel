@@ -24,7 +24,7 @@ RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 nextjs
 
 # Expose port 3000
-EXPOSE 3000
+EXPOSE 3101
 ENV PORT=3000
 ENV NODE_ENV=production
 
