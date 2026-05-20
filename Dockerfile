@@ -1,55 +1,30 @@
-# Stage 1: Install dependencies
-FROM node:20-alpine AS installer
+FROM php:8.4-cli
 
-WORKDIR /app
+RUN apt-get update && apt-get install -y \
+    unzip \
+    libzip-dev \
+    && docker-php-ext-install zip
 
-# Copy package files
-COPY package.json package-lock.json ./
+# Instalar Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Install dependencies
-RUN npm install --prefer offline --no-audit
+RUN mkdir -p /var/www/html
 
-# Stage 2: Build application
-FROM node:20-alpine AS builder
+WORKDIR /var/www/html
 
-WORKDIR /app
+COPY composer.json ./composer.json
+COPY composer.lock ./composer.lock
+COPY app ./app
+COPY README.md ./README.md
 
-# Copy dependency lock file and install production deps only
-COPY --from=installer /app/node_modules ./node_modules
-COPY package.json package-lock.json ./
+RUN composer install --no-dev --no-scripts --no-cache
 
-# Copy application source files
-COPY . .
-
-# Install build dependencies and build
-RUN npm run build
-
-# Stage 3: Production runtime
-FROM node:20-alpine AS runner
-
-WORKDIR /app
-
-# Create app user
-RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 nextjs
-
-# Copy built application
-COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
-COPY --from=builder --chown=nextjs:nodejs /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/package.json ./
-
-# Install production dependencies only
-RUN npm install --omit dev --no-audit
-
-# Expose port 3000
-EXPOSE 3000
-
-# Set environment variables
-ENV PORT=3000
-ENV NODE_ENV=production
+RUN chown -R www-data:www-data /var/www/html
 
 # Switch to non-root user
-USER nextjs
+USER www-data
+
+EXPOSE 8100
 
 # Start the application
-CMD ["npm", "start"]
+CMD ["php", "-S", "0.0.0.0:8100", "-t", "app"]
