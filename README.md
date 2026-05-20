@@ -24,6 +24,7 @@ Quick links
 -----------
 - Email: [hfelixmiguell@gmail.com](mailto:hfelixmiguell@gmail.com)
 - GitHub: https://github.com/hfmiguel
+  - Web version of this README: https://github.fxdev.pt
 - LinkedIn: https://www.linkedin.com/in/hfelixmiguell/
 
 Highlights (what I’ve shipped)

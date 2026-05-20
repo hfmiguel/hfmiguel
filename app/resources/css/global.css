@@ -376,6 +376,10 @@ footer {
     width: 100%;
   }
 }
+@media (min-width: 901px) {
+  /* Ensure the mobile-only floating toggle is hidden on larger screens */
+  .toc-mobile-toggle { display: none !important; }
+}
 
 /* Active heading highlight + body attribute-driven accent */
 article h2.active-heading,
@@ -546,6 +550,8 @@ article h3:hover a.anchor {
   color: var(--muted);
   cursor: pointer;
   font-size: 0.95rem;
+  /* always hide the inline toggle button; we use a floating mobile-only toggle */
+  display: none !important;
 }
 .toc ul {
   list-style: none;
@@ -565,6 +571,89 @@ article h3:hover a.anchor {
 }
 .toc.collapsed {
   display: none;
+}
+/* Mobile TOC off-canvas styles and mobile toggle */
+.toc-backdrop {
+  display: none; /* toggled by JS */
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 9998;
+}
+
+/* Ensure mobile toggle exists but hidden by default; media query will show it.
+   This avoids relying solely on JS to control visibility. */
+.toc-mobile-toggle {
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764227 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 24px rgba(16,24,40,0.2);
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+
+.toc {
+  transition: transform 0.28s ease, opacity 0.28s ease;
+}
+
+/* Mobile off-canvas presentation when .toc.open is set */
+@media (max-width: 900px) {
+  .toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 320px;
+    max-width: 100%;
+    transform: translateX(-105%);
+    z-index: 9999;
+    overflow: auto;
+    background: var(--panel);
+    box-shadow: 2px 0 28px rgba(16,24,40,0.12);
+    padding: 18px;
+    border-radius: 0;
+  }
+  .toc.open {
+    transform: translateX(0);
+  }
+  /* ensure the inline header button inside the TOC is hidden in mobile view
+     because we provide a floating icon-only button instead */
+  .toc .toc-toggle { display: none; }
+  /* mobile floating icon-only toggle */
+  .toc-mobile-toggle {
+    display: inline-flex !important;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764227 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 8px 24px rgba(16,24,40,0.2);
+    font-size: 1.4rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    cursor: pointer;
+  }
+  .toc-mobile-toggle:focus { outline: 3px solid rgba(102,126,234,0.35); }
 }
 footer.site-footer {
   max-width: var(--max-width);
