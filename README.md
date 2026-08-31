@@ -1,68 +1,272 @@
-# Hey — I’m Henrique Felix 👋
+<span align="left">
+<h1>
+Hey there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> , I'm Henrique Felix
+</h1>
+</span>
 
-I build & ship web platforms that solve real problems.
-I focus on clean architecture, reliability, and interfaces that people actually use.
-My work sits at the intersection of backend systems (Laravel/PHP), modern front‑end (React, Tailwind), and developer productivity (CLI tools, automation).
+<h4 align="left">
+Full stack developer · Laravel/PHP · Livewire · Tailwind
+</h4>
 
-Full-stack developer by trade, entrepreneur by heart, and guitar player by soul. Since 2013, I’ve been turning complex problems into clean, functional code.
-When I'm not in front of a terminal, you’ll probably find me with a cold beer in hand or planning my next venture. Simple as that.
-
-- I love nature 🎣🌲, sport 💪, guitar 🎸 and reading 📚.
-- I enjoy learning new stuff and making notes 📄.
-- I like to travel and I like to have new opportunities 🛫.
-- I'm an Open Source enthusiast 🤠.
-
+<div>
+  <img src="https://views.whatilearened.today/views/github/hfmiguel/views.svg"/>
+  <a href="https://github.com/hfmiguel/"><img src="https://img.shields.io/github/followers/hfmiguel?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a>
+  <a href="https://github.com/hfmiguel?tab=repositories">
+  <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/>
+  </a>
+  <br/>
+  <a href="https://www.linkedin.com/in/hfelixmiguell/">
+  <img src="https://img.shields.io/badge/-hfelixmiguell-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hfelixmiguell"/>
+  </a>
+  <a href="https://www.instagram.com/felix_henriique/">
+  <img src="https://img.shields.io/badge/-felix_henriique-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/felix_henriique/"/>
+  </a>
+  <a href="https://www.facebook.com/henriqueFelix.m">
+  <img src="https://img.shields.io/badge/-henriqueFelix.m-blue?style=flat-square&logo=Facebook&logoColor=white&link=https://www.facebook.com/henriqueFelix.m"/>
+  </a>
+  <a href="https://telegram.org/@Hfelixm">
+  <img src="https://img.shields.io/badge/-henriquefelix-darkblue?style=flat-square&logo=Telegram&logoColor=white&link=https://telegram.org/@Hfelixm"/>
+  </a>
+  <a href="http://fxdev.pt">
+  <img src="https://img.shields.io/badge/-henriquefelix-darkorange?style=flat-square&logo=Opera&logoColor=white&link=http://fxdev.pt"/>
+  </a>
+  <a href="mailto:hfelixmiguell@gmail.com">
+  <img src="https://img.shields.io/badge/-hfelixmiguell-darkred?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hfelixmiguell@gmail.com"/>
+  </a>
 </div>
 
-What I do — short
-------------------
-- Build robust APIs and backend systems with Laravel: auth, RBAC, performance tuning and operational stability.
-- Create responsive frontend experiences with React / Next and Tailwind; ship interfaces that scale across devices.
-- Automate workflows with small tools and CI/CD: TypeScript CLI utilities, testing, and deployment pipelines.
+<br/>
 
-Quick links
------------
-- Email: [hfelixmiguell@gmail.com](mailto:hfelixmiguell@gmail.com)
-- GitHub: https://github.com/hfmiguel
-  - Web version of this README: https://github.fxdev.pt
-- LinkedIn: https://www.linkedin.com/in/hfelixmiguell/
+<blockquote>
+Passionate about programming and entrepreneurship, a good draft beer and a guitar.
+</blockquote>
 
-Highlights (what I’ve shipped)
------------------------------
-- Led backend architecture and standards at a production company — improved release stability and performance.
-- Built and maintained APIs and real‑time features for distributed systems, including services used by 500+ active mobile users and platforms with 1,000+ users.
-- Mentored engineers and introduced testing/CI practices that raised code quality across teams.
+Full-stack developer by trade, entrepreneur by heart, and guitar player by soul.
+Building web platforms since 2013 with Laravel, Livewire, and Tailwind.
+When I'm not coding, you'll find me with a beer in hand or planning my next venture.
 
-Experience (selected)
----------------------
-- C‑MORE — Full Stack Developer (06/2023 — Present)
-  - Leading backend architecture, delivering Laravel APIs and improving DB performance and reliability.
-  - Mentored teammates and introduced better testing and deployment workflows.
+<br>
 
-- Oseubackoffice — Full Stack Developer (07/2019 — 05/2023)
-  - Built scalable web apps, real‑time logistics features, and React Native clients used in the field.
-
-- Viasat — Full Stack Developer / IT Technician (2013 — 2023)
-  - End‑to‑end systems: CRM, dashboards, server ops and long‑running production services.
-
-Skills & stack
---------------
-- Languages: PHP, JavaScript, TypeScript, SQL, Python (learning)
-- Frameworks: Laravel, React, Next.js, Livewire
-- Tools: Docker, Redis, MySQL/Postgres, Git, CI/CD pipelines
-- Design: Figma, responsive UI patterns
-
-Selected projects
------------------
-- Portfolio website — modern MDX + responsive UI
-- E‑commerce platform — Laravel backend + React frontend (payments, inventory, admin)
-- API gateway — Node.js gateway with auth, rate limiting and caching
-
-Open source & integrations
---------------------------
-- I publish small automation tools and CLI utilities; if you want an automated list of my top repos on this page, I can enable a GitHub Action to update the README automatically.
+<div>
+<ul>
+<li>I love nature 🎣🌲, sport 💪, guitar 🎸 and reading 📚.</li>
+<li>I enjoy learning new stuff and making notes 📄.</li>
+<li>I like to travel and I like to have new opportunities 🛫.</li>
+<li>I'm an Open Source enthusiast 🤠.</li>
+</ul>
+</div>
 
 
+<br>
+
+## 🚀 My Skills
+
+**Programming Languages**
+
+<table>
+  <tr>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
+      </a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40"/>
+      </a>
+      <br>PHP
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40"/>
+      </a>
+      <br>Typescript
+    </td>
+  </tr>
+</table>
+
+**Frameworks & Libraries**
+
+<table>
+  <tr>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40"/>
+      </a>
+      <br>Laravel
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://img.shields.io/badge/Livewire-F55146?style=flat-square&logo=livewire&logoColor=white" width="40"/>
+      </a>
+      <br>Livewire
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/>
+      </a>
+      <br>React
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/>
+      </a>
+      <br>NodeJS
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40"/>
+      </a>
+      <br>Bootstrap
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg" width="40"/>
+      </a>
+      <br>Alpine.js
+    </td>
+  </tr>
+</table>
+
+**Markup & Stylesheet**
+
+<table>
+  <tr>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
+      </a>
+      <br>HTML
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40"/>
+      </a>
+      <br>CSS
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="40"/>
+      </a>
+      <br>SASS
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40"/>
+      </a>
+      <br>Tailwind CSS
+    </td>
+  </tr>
+</table>
+
+**Graphic Tools**
+
+<table>
+  <tr>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="40"/>
+      </a>
+      <br>Photoshop
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30"/>
+      </a>
+      <br>Figma
+    </td>
+  </tr>
+</table>
+
+**Other Tools**
+
+<table>
+  <tr>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
+      </a>
+      <br>Git
+    </td>
+     <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>
+      </a>
+      <br>Docker
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/>
+      </a>
+      <br>Linux
+    </td>
+    <td align="center" width="66">
+      <a>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="40"/>
+      </a>
+      <br>CI/CD
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 💡 Featured Projects
+
+| Project                                                                          | Description                                                       |
+|----------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [laravel-docker-nginx-fpm](https://github.com/hfmiguel/laravel-docker-nginx-fpm) | Docker environment for Laravel with load balancer Nginx + PHP-FPM |
+| [docker-php-apache](https://github.com/hfmiguel/docker-php-apache)               | Docker configuration for PHP 8.2 with Apache                      |
+| [advanced-logger](https://github.com/hfmiguel/advanced-logger)                   | Advanced logger for Laravel                                       |
 
 ---
-Last updated: 2026
+
+### 📚 Currently Learning
+
+- System architecture & design patterns
+- AI-driven automation & RAG-based systems
+- Open-source agentic development workflows
+
+---
+
+<br>
+
+<summary> <b>
+My Github Stats</b>:
+</summary>
+
+<br>
+
+<table style="display:flex" border='0'>
+  <tr>
+    <td>
+      <a href="https://github.com/hfmiguel">
+        <img align="right" src="https://github-stats-extended.vercel.app/api?username=hfmiguel&theme=vue-dark&show_icons=true&count_private=true&include_all_commits=true&line_height=40" />
+      </a>
+    </td>
+    <td>
+      <img align="left" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hfmiguel&theme=vue-dark&show_icons=true&count_private=true&include_all_commits=true&langs_count=5" />
+    </td>
+  </tr>
+</table>
+
+<table style="display:flex" border='0'>
+<tr>
+  <td>
+    <a  href="https://github.com/hfmiguel">
+      <img  style="margin-top:20px" src="https://streak-stats.demolab.com?user=hfmiguel&theme=vue-dark&date_format=j%20M%5B%20Y%5D&stroke=3BDD3E&border=DDDDDD&line_height=17"  />
+    </a>
+  </td>
+  <td>
+    <img src="https://c.tenor.com/_oIQs0zyJj0AAAAi/caffeine-rush-coffee.gif" width="250">
+  </td>
+</tr>
+</table>
+
+
+<br/>
+<br/>
+<br/>
+
+##### Last Edited on: 2026

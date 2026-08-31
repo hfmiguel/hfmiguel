@@ -6,12 +6,14 @@ $mdContent = file_exists('../README.md') ? file_get_contents('../README.md') : '
 
 $htmlBody = $parsedown->text($mdContent);
 
+$base = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+
 require 'resources/includes/header.php';
 ?>
 
 
 <main class="container">
-    <article>
+    <article class="markdown-body">
         <?php echo $htmlBody; ?>
     </article>
 </main>

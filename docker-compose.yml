@@ -5,8 +5,18 @@ services:
       dockerfile: Dockerfile
     restart: unless-stopped
     network_mode: host
+    volumes:
+      - ./app:/var/www/app
     healthcheck:
-      test: ["CMD", "wget", "--no-check-certificate", "--quiet", "--spider", "http://localhost:3000"]
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-check-certificate",
+          "--quiet",
+          "--spider",
+          "http://localhost:8100",
+        ]
       interval: 30s
       timeout: 10s
       retries: 4
